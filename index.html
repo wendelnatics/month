@@ -1,0 +1,73 @@
+      <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>For You</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Hi mahal ko😚💦 I Love you<3 Happy 2nd Monthsarry </h1>
+ 
+<img src="https://media.tenor.com/images/9164f10a0dbbf7cdb6aeb46184b16365/tenor.gif" height="200" />
+ 
+ <button onclick="autoWriter()">Click me and the msg!</button>
+
+ 
+
+<p id="demo"></p>
+
+<script>
+var i = 0;
+var txt ='Hi mahal kamusta Hahaha kumain kana ba? Happy 2nd Monthsarry anyways may papakita ako sayo ready kana ba?.'; 
+var speed = 70;
+ 
+ function autoWriter() {
+  if (i < txt.length) {
+    document.getElementById("demo").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(autoWriter, speed);
+  }
+}
+</script>
+
+ <div id="div1" style="visibility: hidden">
+ <button
+  onclick="checker()"><a href=".html">Yess!!</a></button>
+ </div>
+
+ <script>
+  function checker() {
+   var result = confirm('Sure kaba jan baka kiligin ka?');
+   if (result == false) {
+    event.preventDefault();
+   }
+  }
+ </script>
+ 
+ <script type="text/javascript">
+  function showDiv1() {
+   document.getElementById("div1").style.visibility = "visible";
+  }
+  setTimeout("showDiv1()", 23000); // after 15 sec
+  </script>
+ 
+ 
+<script src="main.js"></script>
+<body>
+</html>
+
+

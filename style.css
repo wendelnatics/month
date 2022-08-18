@@ -1,0 +1,15 @@
+body {
+    font-size: 15pt;
+    background-color: azure;
+}
+
+p1{ 
+  font-size: 16px;
+  text-align: right;
+}
+
+#proceed {
+ display: none;
+}
+
+
